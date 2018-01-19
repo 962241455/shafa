@@ -1,0 +1,218 @@
+
+{
+    "Version" : 100,
+
+    "Discount" : {
+        "0" : "",
+        "1" : "ui/texture/mimaxiugai.png",
+        "2" : "ui/texture/mimaxiugai.png",
+        "3" : "ui/texture/mimaxiugai.png",
+        "4" : "ui/texture/mimaxiugai.png",
+        "5" : "ui/texture/mimaxiugai.png",
+        "6" : "ui/texture/mimaxiugai.png",
+        "7" : "ui/texture/mimaxiugai.png",
+        "8" : "ui/texture/mimaxiugai.png",
+        "9" : "ui/texture/mimaxiugai.png",
+        "95" : "ui/texture/mimaxiugai.png"
+    },
+
+    "CurrencyType" : {
+        "CNY" : {
+            "label" : "CNY",
+            "symbol" : "元",
+            "flag" : 1
+        },
+
+        "USD" : {
+            "label" : "USD",
+            "symbol" : "$",
+            "flag" : 1
+        }
+    },
+
+    "PayWay" : [
+        {
+            "label" : "weixin",
+            "icon" : "ui/texture/weixin.png",
+            "name" : "微信",
+            "flag" : 1
+        },
+
+        {
+            "label" : "alipay",
+            "icon" : "ui/texture/zhifubao.png",
+            "name" : "支付宝",
+            "flag" : 1
+        }
+    ],
+
+    "Product" : [
+        {
+            "pid" : "p1",
+            "group" : 0,
+            "name" : "沙发配色家-连续月度会员(个人)",
+            "desc" : "自动续费，可随时取消",
+            "worth" : 30,
+            "add_time" : 31,
+            "type" : "CNY",
+            "oprice" : 30,
+            "pprice" : 0.05,
+            "discount" : 5,
+            "flag" : 0
+        },
+
+        {
+            "pid" : "p2",
+            "group" : 0,
+            "name" : "沙发配色家-年度会员(个人)",
+            "desc" : "12个月，每月20元",
+            "worth" : 248,
+            "add_time" : 372,
+            "type" : "CNY",
+            "oprice" : 248,
+            "pprice" : 0.05,
+            "discount" : 0,
+            "flag" : 2
+        },
+
+        {
+            "pid" : "p3",
+            "group" : 0,
+            "name" : "沙发配色家-季度会员(个人)",
+            "desc" : "3个月，每月26元",
+            "worth" : 78,
+            "add_time" : 93,
+            "type" : "CNY",
+            "oprice" : 78,
+            "pprice" : 0.04,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "p4",
+            "group" : 0,
+            "name" : "沙发配色家-月度会员(个人)",
+            "desc" : "1个月，每天1元",
+            "worth" : 30,
+            "add_time" : 31,
+            "type" : "CNY",
+            "oprice" : 30,
+            "pprice" : 0.03,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "p5",
+            "group" : 0,
+            "name" : "沙发配色家-星期会员(个人)",
+            "desc" : "7天，每天1.7元",
+            "worth" : 12,
+            "add_time" : 7,
+            "type" : "CNY",
+            "oprice" : 12,
+            "pprice" : 0.02,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "p6",
+            "group" : 0,
+            "name" : "沙发配色家-尝鲜会员(个人)",
+            "desc" : "当天有效",
+            "worth" : 3,
+            "add_time" : 1,
+            "type" : "CNY",
+            "oprice" : 3,
+            "pprice" : 0.01,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "c1",
+            "group" : 1,
+            "name" : "沙发配色家-连续月度会员(企业)",
+            "desc" : "自动续费，可随时取消",
+            "worth" : 588,
+            "add_time" : 31,
+            "type" : "CNY",
+            "oprice" : 588,
+            "pprice" : 0.05,
+            "discount" : 5,
+            "flag" : 0
+        },
+
+        {
+            "pid" : "c2",
+            "group" : 1,
+            "name" : "沙发配色家-年度会员(企业)",
+            "desc" : "12个月，每月416元",
+            "worth" : 4998,
+            "add_time" : 372,
+            "type" : "CNY",
+            "oprice" : 4998,
+            "pprice" : 0.1,
+            "discount" : 0,
+            "flag" : 2
+        },
+
+        {
+            "pid" : "c3",
+            "group" : 1,
+            "name" : "沙发配色家-季度会员(企业)",
+            "desc" : "3个月，每月532元",
+            "worth" : 1598,
+            "add_time" : 93,
+            "type" : "CNY",
+            "oprice" : 1598,
+            "pprice" : 0.08,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "c4",
+            "group" : 1,
+            "name" : "沙发配色家-月度会员(企业)",
+            "desc" : "1个月，每天19元",
+            "worth" : 588,
+            "add_time" : 31,
+            "type" : "CNY",
+            "oprice" : 588,
+            "pprice" : 0.06,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "c5",
+            "group" : 1,
+            "name" : "沙发配色家-星期会员(企业)",
+            "desc" : "7天，每天29元",
+            "worth" : 208,
+            "add_time" : 7,
+            "type" : "CNY",
+            "oprice" : 208,
+            "pprice" : 0.04,
+            "discount" : 0,
+            "flag" : 1
+        },
+
+        {
+            "pid" : "c6",
+            "group" : 1,
+            "name" : "沙发配色家-尝鲜会员(企业)",
+            "desc" : "当天有效",
+            "worth" : 40,
+            "add_time" : 1,
+            "type" : "CNY",
+            "oprice" : 40,
+            "pprice" : 0.02,
+            "discount" : 0,
+            "flag" : 1
+        }
+    ]
+}

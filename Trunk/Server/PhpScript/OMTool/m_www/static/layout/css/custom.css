@@ -1,0 +1,129 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/*
+Change Quick Sidebar Width
+*/
+
+/*
+.page-quick-sidebar-wrapper {
+  right: -370px;
+  width: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-footer {
+  margin-right: 370px;
+  margin-left: -370px;
+}
+
+.page-sidebar-reversed.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-right: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content.page-quick-sidebar-full-height .page-header {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-list {
+  width: 370px !important;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item {
+  width: 370px !important;
+  margin-left: 370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-content-item-shown .page-quick-sidebar-list {
+  margin-left: -370px;
+}
+*/
+body{font-family: Microsoft Yahei}
+
+/*选择*/
+.ui-select ul{list-style:none;margin:0;padding:0;}
+.ui-select li a.on{background:#fafafa}
+.ui-select li input{display:inline-block;margin:0;vertical-align:middle}
+.ui-select li span{vertical-align:middle}
+.upload_imglist ul{margin:0;padding:0;list-style:none}
+.upload_imglist li{list-style:none;position:relative;float:left;margin:3px;width:80px;height:80px;line-height:74px;border:#d1d1d1 solid 1px;vertical-align:middle;text-align:center}
+.upload_imglist li img{display:inline-block;border:none;max-width:78px;max-height:78px;vertical-align:middle}
+.upload_imglist li a.close{position:absolute;top:-3px;right:-6px;display:block;width:16px;height:16px;line-height:13px;border:#000 solid 1px;background:#fff !important;border-radius:50% !important;text-decoration:none;font-size:14px;font-weight:bold;color:#000 !important;text-indent:0;}
+.upload_imglist li a:hover{background:#f0f0f0;}
+.upload_imglist li span{position:absolute;top:30px;left:15px;width:50px;line-height:20px;background:#fff;text-align:center;}
+.upload_imglist .additem{margin-top:-10px;border:none;}
+.upload_imglist .additem i{font-size:24px;color:#999;}
+table.dataTable{margin-bottom:0;}
+
+/*商品图片上传*/
+.goods_imglist dl{display:inline-block;margin:6px;padding:0 10px;width:140px;border:#d9d9d9 solid 1px;line-height:1.5;color:#666;}
+.goods_imglist i{display:inline-block;margin:0 3px;width:0;height:0;border-style:solid;border-width:6px;border-color:transparent #666 transparent transparent;vertical-align:middle;}
+.goods_imglist .right i{border-color:transparent transparent transparent #666;}
+.goods_imglist .handle span{vertical-align:middle;}
+.goods_imglist .handle{text-align:center}
+.goods_imglist .handle a{display:inline-block;padding:4px;text-decoration:none !important;color:#666;}
+.goods_imglist dt{position:relative;width:100%;padding-bottom:100%;}
+.goods_imglist dt .img{position:absolute;left:0;right:0;width:100%;height:100%;text-align:center;}
+.goods_imglist dt .img:after{content:'';display:inline-block;height:100%;vertical-align:middle;}
+.goods_imglist dt img{display:inline-block;max-width:100%;max-height:100%;vertical-align;}
+.goods_imglist dt .cover{display:none;position:absolute;top:0;left:0;width:100%;height:100%;line-height:120px;background:rgba(0,0,0);text-align:center;color:#f00;z-index:10;opacity:0.4;}
+.goods_imglist .btn{margin:6px 0;}
+.goods_imglist dl:first-child dt .cover{display:block;}
+.goods_imglist dl:first-child .left, .goods_imglist dl:first-child .split, .goods_imglist dl:last-child .right, .goods_imglist dl:last-child .split{display:none}
+
+/*订单商品列表*/
+.order_prolist{list-style:none;margin:0;padding:0;}
+.order_prolist dt{float:left;width:72px;height:72px;line-height:70px;border:#d9d9d9 solid 1px;text-align:center}
+.order_prolist dt img{display:inline-block;max-width:100%;max-height:100%;vertical-align:middle;}
+.order_prolist dd{margin-left:80px;padding-top:6px;}
+.order_prolist .title{height:36px;line-height:1.2;overflow:hidden;}
+
+.icon_box{margin:10px 0 0;padding:0;width:151px;border-top:#d9d9d9 solid 1px;border-left:#d9d9d9 solid 1px;}
+.icon_box li{float:left;width:25px;height:25px;line-height:24px;border-right:#d9d9d9 solid 1px;border-bottom:#d9d9d9 solid 1px;text-align:center;list-style:none;cursor:pointer}
+
+/*砍价*/
+.prize_list .iframe{padding:0;}
+.prize_list dl{margin:6px 0;}
+.prize_list dt{float:left;width:150px;height:150px;border:#d9d9d9 solid 1px;}
+.prize_list dd{margin-left:160px;}
+.prize_list dd input{margin:3px 0;}
+.prize_list li{margin-top:-15px;width:144px !important;height:144px !important;line-height:140px !important;border-width:0;}
+.prize_list li img{display:inline-block;max-width:100%;max-height:100%;vertical-align:middle;}
+.prize_list li .replace{position:absolute;bottom:0;left:0;width:100%;line-height:30px;background:#fff;text-align:center}
+
+.themepic{list-style:none;margin:0;padding:0;}
+.themepic li{position:relative;float:left;width:180px;height:270px;}
+.themepic li img{display:inline-block;max-width:100%;max-height:100%;}
+.themepic li span.cover{position:absolute;top:50%;left:50%;display:block;margin-top:-13px;margin-left:-46px;padding:0 10px;background:rgba(200,200,200,0.8);border:#fff solid 1px;line-height:2;border-radius:6px;color:#399;}
+.themepic li .radio{position:absolute;right:0;bottom:10px;}
+
+.hagglesuc{padding:20px 0}
+.hagglesuc .ok{margin-bottom:20px;font-size:18px;color:#399;}
+.hagglesuc .ok .fa{font-size:24px;}
+
+/* date_list */
+.date_list div.group {margin-top: 10px;}
+.date_list div.group a.del {display:inline-block;}
+.date_list div.group a.add {display: none;}
+.date_list div.group:last-child a.del {display: none;}
+.date_list div.group:last-child a.add {display: inline-block;}

@@ -1,0 +1,70 @@
+
+body {
+    font-family: "微软雅黑"
+}
+label{
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: middle;
+
+}
+input{
+    outline: none;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 2px 10px 2px 10px;
+    left: 50%;
+    width:70%;
+}
+input[type="text"]{
+    height: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding:10px 10px;
+    vertical-align: middle;
+    color:#666;
+}
+.submitAdd{
+    position: relative;
+    left: 50%;
+
+}
+.gmdiv{
+    border: 1px solid rgb(216, 216, 216);
+    padding: 2px 1px 2px 20px;
+    width:70%;
+}
+table{
+    border: 5px solid rgb(216, 216, 216);
+    padding: 50px 50px 50px 50px;
+    width:80%;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+#dht{padding:10px;
+    width: auto;
+    boder:1px solid#000000;
+    background-color:#008697}
+#cddh{
+    float:left;
+    height:600px;boder:1px solid #000000;
+
+    padding: 1px 2px;
+    background-color:#496a88;
+    margin-right:1px;
+}
+#ztnr{
+    float:right;
+    padding: 10px 25px;
+    width:70%;boder:1px #a2a2ff;
+    height:100%;}
+#user{
+    float:right;
+    padding: 10px 35px;
+    width:80%;boder:1px #a2a2ff;
+    height:600px;}
+.checked{color: red}
+.pass{float: right;position:relative; bottom:20px;display: none}
+.modify{float: right;position:relative; bottom:60px; font-family:"Arial", "Tahoma", "微软雅黑", "雅黑"; border:0}

@@ -1,0 +1,55 @@
+
+{
+    "Success" : [0, "成功"],
+    "Failed" : [1, "失败"],
+    "SvrErr" : [2, "服务器错误"],
+    "ActionNull" : [3, "协议名为空"],
+    "ActionErr" : [4, "没有定义的协议"],
+
+    "Account_Code" : [100, "账号系统：100 -- 199"],
+    "ExistAccount" : [101, "账号已经存在"],
+    "NoAccount" : [102, "账号不存在"],
+    "PassWordErr" : [103, "您所输入的帐号和密码不匹配！"],
+    "IdentifyCodeErr" : [104, "验证码错误"],
+    "SignatureErr" : [105, "签名错误"],
+    "TokenCodeErr" : [106, "令牌过期，请重新登录"],
+    "UnvalidPhno" : [107, "手机号码不存在或错误"],
+    "UnvalidPwd" : [108, "密码为6-16 位的数字和字母组合"],
+    "SameUserName" : [109, "已经存在相同名字的账号"],
+    "NotVip" : [110, "非会员无法进行此项操作"],
+    "OverLimit" : [111, "云端存储为会员功能，请开通会员后使用"],
+
+    "NotUserType" : [120, "非个人账户，不能进行此操作"],
+    "NotComType" : [121, "非企业账户，不能进行此操作"],
+    "NotSubType" : [122, "非企业子账户，不能进行此操作"],
+    "NotComName" : [123, "创建企业账户，必须填入企业名字"],
+    "NotComOrSub" : [124, "不是其他任何企业账户的成员"],
+    "HasComOrSub" : [125, "已经是其他企业账户的成员"],
+    "UnvalidAuth" : [126, "授权未生效"],
+    "NotComOwner" : [127, "并不是企业账户拥有者"],
+    "NotDelOwner" : [128, "不能删除企业账户的拥有者"],
+    "NotMeToMe" : [129, "不能将自己的企业账户转让给自己"],
+    "NotComMember" : [130, "非企业成员"],
+    "NotExistAuth" : [131, "不存在的授权"],
+
+    "Cloth_Code" : [200, "面料系统：200 -- 299"],
+    "ExistCloth" : [201, "已存在的面料"],
+    "NotExistCloth" : [202, "不存在的面料"],
+    "FailedAddCloth" : [203, "增加面料失败"],
+    "FailedDelCloth" : [204, "删除面料失败"],
+    "FailedUpdateCloth" : [205, "更新面料失败"],
+    "OverClothLimit" : [206, "面料存储数量已达上限"],
+
+    "Tag_Code" : [300, "面料标签系统：300 -- 399"],
+    "ExistTag" : [301, "已存在的标签"],
+    "NotExistTag" : [302, "不存在的标签"],
+    "FailedAddTag" : [303, "增加标签失败"],
+    "FailedDelTag" : [304, "删除标签失败"],
+    "FailedUpdateTag" : [305, "更新标签失败"],
+
+    "Sofa_Code" : [400, "沙发造型系统：400 -- 499"],
+    "OverSofaModelLimit" : [401, "沙发造型存储数量已达上限"],
+    "OverSofaColorLimit" : [402, "沙发配色存储数量已达上限"],
+
+    "End_Code" : [999, "结束"]
+}

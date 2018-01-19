@@ -1,0 +1,97 @@
+
+/* 共用部分 */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.padding-t-b{
+    padding:15px 0px 15px 0px;
+}
+
+.padding-top{
+    margin-top:10px;
+}
+
+.padding-none{
+    padding: 0px !important;
+}
+
+/* 列表部分 */
+.mine-msg li> .layui-elem-quote{
+    position: relative;
+    margin-bottom:1px !important;
+    border-left:0px;
+    border-bottom: 1px solid #c4c4c4;
+    background-color:#FAFAFA !important;
+    cursor:pointer;
+}
+.mine-msg li> .layui-elem-quote b{
+    font-size:15px;
+}
+.li-inco{
+    position: absolute;
+    top: 15%;
+    left:8px;
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    background-color:#F25252;
+}
+.li-inco-color{
+    background-color:#CCCCCC;
+}
+.mine-msg li> .layui-elem-quote .div-text{
+    font-size:12px;
+    width:85%;
+    color:#555555;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.layui-elem-quote .div-text:after {
+    content: "...";
+    color: #000;
+}
+.mine-msg li> .layui-elem-quote .li-span {
+    position: absolute;
+    right: 30px;
+    color: #ccc;
+    font-size:12px;
+}
+
+
+/* 详情部分 */
+.detail-box {
+    padding: 20px;
+}
+
+.fly-panel {
+    border-radius: 2px;
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,.05)
+}
+.fly-detail-info{
+    text-align: right;
+    color: #c4c4c4;
+}
+.div-conent-text{
+    text-indent:20px;
+    font-size: 16px;
+}
+
+/* error 样式 */
+.fly-none{
+    border-left:0px !important;
+}
+.fly-none div {
+    font-size:18px;
+    color: #555555;
+    text-align:center;
+}
+
+
+
+
