@@ -4,9 +4,9 @@ _G["ServCfg"] = {}
 -- 邮件默认过期时间，30天。
 _G["ServCfg"]["mail_expire_time"] = 30 * 86400
 -- 注册个人账户，赠送vip时间 30天。
-_G["ServCfg"]["register_vip_gift"] = 0.5 * 86400
+_G["ServCfg"]["register_vip_gift"] = 30 * 86400
 -- 首次创建企业账户，赠送企业vip时间 30天。
-_G["ServCfg"]["createcom_vip_gift"] = 0.5 * 86400
+_G["ServCfg"]["createcom_vip_gift"] = 30 * 86400
 
 -- 数据同步的限制。
 _G["ServCfg"]["SyncLimit"] = 
@@ -22,10 +22,10 @@ _G["ServCfg"]["SyncLimit"] =
 	-- 完全限制，非法账户、特殊类型账户是不准同步的。
 	AllLimit  = {Sync =  0, AddCloth =  0, AddModel =  0, AddColor =  0, NewCloth =  0, NewModel =  0, NewColor =  0, AR =  0, Share =  0},
 	-- 游客 相关限制 的上限
-	Guest     = {Sync = -1, AddCloth = 10, AddModel =  1, AddColor =  3, NewCloth = 10, NewModel =  1, NewColor =  3, AR = -1, Share = -1},
+	Guest     = {Sync = -1, AddCloth = 100, AddModel =  10, AddColor =  30, NewCloth = 100, NewModel =  10, NewColor =  30, AR = -1, Share = -1},
 	-- 个人账户 相关限制 的上限
 	UserNoVip = {Sync =  0, AddCloth =  0, AddModel =  0, AddColor =  0, NewCloth =  0, NewModel =  0, NewColor =  0, AR = -1, Share = -1},
-	UserVip   = {Sync = -1, AddCloth = 10, AddModel =  1, AddColor =  3, NewCloth = 10, NewModel =  1, NewColor =  3, AR = -1, Share = -1},
+	UserVip   = {Sync = -1, AddCloth = 100, AddModel =  10, AddColor =  30, NewCloth = 100, NewModel =  10, NewColor =  30, AR = -1, Share = -1},
 	-- 企业账户 相关限制 的上限
 	ComNoVip  = {Sync =  0, AddCloth =  0, AddModel =  0, AddColor =  0, NewCloth = -1, NewModel = -1, NewColor = -1, AR = -1, Share = -1},
 	ComVip    = {Sync = -1, AddCloth = -1, AddModel = -1, AddColor = -1, NewCloth = -1, NewModel = -1, NewColor = -1, AR = -1, Share = -1},

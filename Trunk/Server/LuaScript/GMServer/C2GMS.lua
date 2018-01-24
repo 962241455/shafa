@@ -192,3 +192,11 @@ end
 
 
 -------------------------------- LogTool 相关指令操作。 --------------------------------
+
+-- 测试所有参数类型
+C2GMS.Test = function (oGM, oRole, args, body, bodyFile)
+    assert(oGM:IsClass(CGMRole), "oGM is not validate !")
+
+    local data = {code = RetCode.Success[1], message = RetCode.Success[2], result = ""}
+    return data
+end

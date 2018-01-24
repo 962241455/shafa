@@ -31,16 +31,7 @@ end
 
 -- 获取某个权限能够执行的 GM指令列表
 function CGMRole:GetGMList()
-	local power = self.power
-    local gmList = {}
-    if power >= 0 then
-        for i, v in pairs(GMDef.GMList) do 
-            if v.power >= power and not v.notShow then
-                gmList[i] = v
-            end
-        end
-    end
-    return gmList
+	return GMDef.GetGMList(self.power)
 end
 
 -- 获取GM 账号信息、GMList
