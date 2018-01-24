@@ -10,6 +10,7 @@
     <meta name="description" content="">
 
     <link type="text/css" rel="stylesheet" href="{:stamp('css/bootstrap.min.css')}"/>
+    <link type="text/css" rel="stylesheet" href="{:stamp('css/addone.css')}"/>
     <link href="{:stamp('css/font-awesome.min.css')}" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="{:stamp('css/animate.min.css')}"/>
     <link type="text/css" rel="stylesheet" href="{:stamp('css/style.min.css')}"/>
@@ -24,7 +25,8 @@
 
 <div class="middle-box text-center loginscreen  animated fadeInDown">
     <div>
-        <div><h1 class="logo-name">logo</h1></div>
+<!--        <div><h1 class="logo-name">logo</h1></div>-->
+        <div class="logo-div"><img class="logo-name"  src="{:stamp('img/logos.png')}"/></div>
         <h2 style="margin-top:120px;">沙发配色管理后台</h2>
         <form class="m-t" role="form" action="{:url('admins/login')}" method="post">
             {:token()}

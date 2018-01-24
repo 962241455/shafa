@@ -2,20 +2,20 @@
 
 namespace app\admin\controller;
 
-use app\common\controller\AdminCommon;
+use think\Controller;
 use app\common\util\Http;
-use app\constEnv;
 use think\Session;
 use think\Request;
 use think\Validate;
+use think\Cache;
 use think\config;
 use think\View;
 
-class Admins extends AdminCommon
+class Admins extends Controller
 {
     public function login(Request $request)
     {
-        $result = '';
+        $result = $this->request->param('message','');
         if ($from = $this->request->post()) {
             $secc = Validate::token('__token__', '', ['__token__' => $from['__token__']]);
             if ($secc) {
@@ -39,8 +39,9 @@ class Admins extends AdminCommon
      */
     public function logout()
     {
-        session_unset(); //清空所有session
-        session_destroy();
+        Session::clear(); //清空所有session
+        Cache::clear(); //清空缓存
+        //session_destroy();
         $this->redirect('Admins/login');
     }
 }

@@ -17,7 +17,7 @@ define('APP_STATIC', __DIR__ . '/../public/static/');
 define('BIND_MODULE', 'index');
 
 //引入自定义配置
-require __DIR__ . '/../extend' . '/const.php';
+require __DIR__ . '/../extend' . '/constIndex.php';
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
 \think\App::route(false);

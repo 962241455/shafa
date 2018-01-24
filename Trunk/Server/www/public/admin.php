@@ -13,11 +13,11 @@
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
-define('APP_STATIC',__DIR__.'/../public/static/');
-define('BIND_MODULE','admin');
-session_start();
+define('APP_STATIC', __DIR__ . '/../public/static/');
+define('BIND_MODULE', 'admin');
 //引入自定义配置
-require __DIR__ . '/../extend' . '/const.php';
+require __DIR__ . '/../extend/constAdmin.php';
+
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
 //必须要写在引导文件之后
